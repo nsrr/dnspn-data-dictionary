@@ -1,0 +1,17 @@
+[
+  {
+    "value": "0",
+    "display_name": "Control",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Clinical",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Other",
+    "description": ""
+  }
+]

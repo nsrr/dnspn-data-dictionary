@@ -1,0 +1,7 @@
+{
+  "id": "subjectid",
+  "display_name": "Public Subject Identifier",
+  "description": "",
+  "type": "identifier",
+  "commonly_used": true
+}

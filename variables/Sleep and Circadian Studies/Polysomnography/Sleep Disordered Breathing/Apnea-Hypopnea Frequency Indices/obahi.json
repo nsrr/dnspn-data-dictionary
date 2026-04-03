@@ -1,0 +1,7 @@
+{
+  "id": "obahi",
+  "display_name": "Obstructive Apnea-Hypopnea Index",
+  "description": "Calculated - Summary metric of sleep disordered breathing events.",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

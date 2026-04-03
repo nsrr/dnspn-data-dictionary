@@ -1,0 +1,7 @@
+{
+  "id": "number_wakings",
+  "display_name": "psg Number of Wakings",
+  "description": "",
+  "type": "integer",
+  "units": "number of events"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "remperc",
+  "display_name": "Percentage of total sleep duration in REM from type I polysomnography",
+  "description": "Total Sleep Duration: the interval between sleep onset and sleep offset while the participant is asleep from type I polysomnography",
+  "type": "numeric",
+  "units": "percent (%)",
+  "labels": [
+    "pctdursp_sr_f1t1"
+  ]
+}

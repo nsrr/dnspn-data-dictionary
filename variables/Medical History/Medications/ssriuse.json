@@ -1,0 +1,7 @@
+{
+  "id": "ssriuse",
+  "display_name": "Was subject on SSRI?",
+  "description": "",
+  "type": "choices",
+  "domain": "ssri"
+}

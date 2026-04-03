@@ -1,0 +1,10 @@
+{
+  "id": "plmsi",
+  "display_name": "Number of periodic limb movements per hour from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "phrnumpl_f1t1"
+  ]
+}

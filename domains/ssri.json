@@ -1,0 +1,12 @@
+[
+  {
+    "value": "0",
+    "display_name": "no SSRI",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "yes SSRI",
+    "description": ""
+  }
+]

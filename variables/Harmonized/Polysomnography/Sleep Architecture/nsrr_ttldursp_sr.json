@@ -1,0 +1,11 @@
+{
+  "id": "nsrr_ttldursp_sr",
+  "display_name": "Total duration of REM sleep from type I polysomnography",
+  "description": "Harmonized by the NSRR team. Source: :rem_duration:",
+  "type": "numeric",
+  "units": "minutes (mins)",
+  "labels": [
+    "ttldursp_sr_f1t1"
+  ],
+  "commonly_used": true
+}
