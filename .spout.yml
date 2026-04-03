@@ -1,10 +1,12 @@
 slug: dnspn
-visit: timepoint
+visit: visit
 charts:
-- chart: sex
-  title: sex
+- chart: group
+  title: Treatment Arm
+- chart: gender
+  title: Sex
 - chart: race
-  title: race
+  title: Race
   
 webservers:
   - name: production

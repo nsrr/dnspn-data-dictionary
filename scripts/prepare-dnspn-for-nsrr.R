@@ -5,11 +5,13 @@ library(dplyr)
 data <- read.csv("/VOLUMES/BWH-SLEEPEPI-NSRR-STAGING/20260310-maski-dns/nsrr-prep/DNS_NSRR_Data.csv")
 data <- data %>% select(-PSG_SM)
 data <- data %>% rename_with(tolower)
-data$visit <- 0
+data <- data %>%
+  mutate(visit = 0) %>%
+  relocate(visit, .after = subjectid)
 write.csv(data, "/VOLUMES/BWH-SLEEPEPI-NSRR-STAGING/20260310-maski-dns/nsrr-prep/0.1.0.pre/dnspn-dataset.0.1.0.pre.csv", row.names = FALSE, na = '')
 
 # harmonized dataset
-harmonized_data <- data[,c("subjectid","age","race","gender")]%>%
+harmonized_data <- data[,c("subjectid","visit","age","race","gender")]%>%
   dplyr::mutate(nsrrid=subjectid,
                 nsrr_age=age,
                 nsrr_race=dplyr::case_when(
@@ -24,7 +26,7 @@ harmonized_data <- data[,c("subjectid","age","race","gender")]%>%
                   gender==2 ~ "female",
                   TRUE ~ "not reported"
                 ))%>%
-  select(nsrrid,nsrr_age,nsrr_race,nsrr_sex)
+  select(nsrrid,visit,nsrr_age,nsrr_race,nsrr_sex)
 
 psg_variables <- data %>%
   select(psgtib, psg_tstmin, psg_waso, psg_se, psg_sol, psg_remlat, n1perc, n2perc, n3perc, remperc, rem_duration, arousalindex, obahi) %>%
