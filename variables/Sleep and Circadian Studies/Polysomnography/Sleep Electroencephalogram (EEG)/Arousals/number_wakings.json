@@ -1,6 +1,6 @@
 {
   "id": "number_wakings",
-  "display_name": "psg Number of Wakings",
+  "display_name": "Number of wakings from type I polysomnography",
   "description": "",
   "type": "integer",
   "units": "number of events"

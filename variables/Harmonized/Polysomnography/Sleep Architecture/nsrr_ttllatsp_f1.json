@@ -1,7 +1,7 @@
 {
   "id": "nsrr_ttllatsp_f1",
   "display_name": "Sleep Latency: the interval between lights-out/in-bed time and sleep onset from polysomnography",
-  "description": "Harmonized by the NSRR team. Source: :psg_sol :",
+  "description": "Harmonized by the NSRR team. Source: :psg_sol:",
   "type": "integer",
   "units": "minutes (min)",
   "labels": [

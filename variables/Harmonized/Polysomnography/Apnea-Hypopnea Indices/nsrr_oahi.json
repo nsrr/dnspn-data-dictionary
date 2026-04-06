@@ -1,7 +1,7 @@
 {
   "id": "nsrr_oahi",
   "display_name": "Obstructive Apnea-Hypopnea Index",
-  "description": "Harmonized by the NSRR team. Source: :Obahi:",
+  "description": "Harmonized by the NSRR team. Source: :obahi:",
   "type": "numeric",
   "units": "number of events per hour",
   "commonly_used": true
