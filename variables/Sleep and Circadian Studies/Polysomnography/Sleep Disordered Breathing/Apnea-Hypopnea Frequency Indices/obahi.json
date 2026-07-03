@@ -1,0 +1,11 @@
+{
+  "id": "obahi",
+  "display_name": "Apnea-Hypopnea Index : (Apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with > 50% flow reduction and >= 3% oxygen desaturation or with arousal) / hour of sleep from type I polysomnography",
+  "description": "The definition of hypopnea events is consistent with the American Academy of Sleep Medicine (AASM) 2007 Manual (pediatric). [Iber C et al. The AASM manual for the scoring of sleep and associated events: rules, terminology and technical specifications. Vol. 1. Westchester, IL: American Academy of Sleep Medicine, 2007] <br><br> [Search for all AHI variables consistent with the clinical guidelines within this dataset]( https://sleepdata.org/datasets/chat/variables?search=aasm07_pediatric)",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "ahi_ap0uhp5x3r_f1t1",
+    "aasm07_pediatric"
+  ]
+}

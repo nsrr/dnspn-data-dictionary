@@ -1,0 +1,10 @@
+{
+  "id": "nsoremp",
+  "display_name": "REM Sleep Latency < 15 minutes: the interval between the first sleep epoch and REM sleep including wake is under 15 minutes from type I polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "rem",
+  "labels": [
+    "ttlprdsp_s1sr_f1t1"
+  ]
+}

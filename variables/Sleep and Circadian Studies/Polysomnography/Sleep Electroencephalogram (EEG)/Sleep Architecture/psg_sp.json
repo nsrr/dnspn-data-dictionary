@@ -1,0 +1,10 @@
+{
+  "id": "psg_sp",
+  "display_name": "Total sleep period: the time between sleep onset and end of sleep including any wake time from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (mins)",
+  "labels": [
+    "ttlprdsp_f1t1"
+  ]
+}

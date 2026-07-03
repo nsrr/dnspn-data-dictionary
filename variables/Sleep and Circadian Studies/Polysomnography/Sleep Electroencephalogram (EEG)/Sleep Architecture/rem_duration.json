@@ -1,0 +1,10 @@
+{
+  "id": "rem_duration",
+  "display_name": "Total duration of REM sleep from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (mins)",
+  "labels": [
+    "ttldursp_sr_f1t1"
+  ]
+}

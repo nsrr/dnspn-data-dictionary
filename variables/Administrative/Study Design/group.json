@@ -1,0 +1,8 @@
+{
+  "id": "group",
+  "display_name": "Narcolepsy (Clinical), Healthy Subjects (Control), or Other (Other Sleep Disorder)",
+  "description": "",
+  "type": "choices",
+  "domain": "group",
+  "commonly_used": true
+}

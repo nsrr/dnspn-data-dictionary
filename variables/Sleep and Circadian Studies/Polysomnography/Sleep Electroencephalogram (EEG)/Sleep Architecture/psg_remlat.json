@@ -1,0 +1,10 @@
+{
+  "id": "psg_remlat",
+  "display_name": "REM Sleep Latency: the interval between the first sleep epoch and REM sleep from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (mins)",
+  "labels": [
+    "ttlprdsp_s1sr_f1t1"
+  ]
+}

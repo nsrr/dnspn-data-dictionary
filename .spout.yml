@@ -1,3 +1,15 @@
-slug: maski-data-dictionary
+slug: dnspn
 visit: visit
-charts: []
+charts:
+- chart: group
+  title: Treatment Arm
+- chart: gender
+  title: Sex
+- chart: race
+  title: Race
+  
+webservers:
+  - name: production
+    url: https://sleepdata.org
+  - name: staging
+    url: https://preview.sleepdata.org

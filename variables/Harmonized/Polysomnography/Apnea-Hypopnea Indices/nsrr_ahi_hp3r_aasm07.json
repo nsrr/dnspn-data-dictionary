@@ -1,0 +1,11 @@
+{
+  "id": "nsrr_ahi_hp3r_aasm07",
+  "display_name": "Apnea-Hypopnea Index : (All apneas + hypopneas with >=50% nasal cannula [or alternative sensor] reduction and >= 3% oxygen desaturation or with arousal) / hour of sleep",
+  "description": "Harmonized by the NSRR team. <br><br>The definition of hypopnea events is consistent with the American Academy of Sleep Medicine (AASM) 2007 Manual (pediatric). [Iber C et al. The AASM manual for the scoring of sleep and associated events: rules, terminology and technical specifications. Vol. 1. Westchester, IL: American Academy of Sleep Medicine, 2007]<br><br>Refer to the source for detailed definition for respiratory events: :obahi:",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "ahi_ap0uhp5x3r_f1t1"
+  ],
+  "commonly_used": true
+}
