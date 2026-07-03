@@ -1,3 +1,4 @@
-## 0.1.0 (March 18, 2026)
+## 0.1.0 (July 3, 2026)
 
-- Created the maski-data-dictionary data dictionary repository using Spout v1.0.0
+- Import variable data and metadata from contributor
+- Created the DNSPN data dictionary repository using Spout v1.0.0

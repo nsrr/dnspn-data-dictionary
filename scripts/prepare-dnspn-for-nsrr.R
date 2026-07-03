@@ -1,4 +1,4 @@
-ver="0.1.0.pre"
+ver="0.1.0"
 
 library(tidyr)
 library(dplyr)
@@ -8,7 +8,7 @@ data <- data %>% rename_with(tolower)
 data <- data %>%
   mutate(visit = 0) %>%
   relocate(visit, .after = subjectid)
-write.csv(data, "/VOLUMES/BWH-SLEEPEPI-NSRR-STAGING/20260310-maski-dns/nsrr-prep/0.1.0.pre/dnspn-dataset-0.1.0.pre.csv", row.names = FALSE, na = '')
+write.csv(data, "/VOLUMES/BWH-SLEEPEPI-NSRR-STAGING/20260310-maski-dns/nsrr-prep/0.1.0/dnspn-dataset-0.1.0.csv", row.names = FALSE, na = '')
 
 # harmonized dataset
 harmonized_data <- data[,c("subjectid","visit","age","race","gender")]%>%
@@ -46,4 +46,4 @@ psg_variables <- data %>%
 
 harmonized_data <- bind_cols(harmonized_data, psg_variables)
 
-write.csv(harmonized_data, "/VOLUMES/BWH-SLEEPEPI-NSRR-STAGING/20260310-maski-dns/nsrr-prep/0.1.0.pre/dnspn-harmonized-dataset-0.1.0.pre.csv", row.names = FALSE, na = '')
+write.csv(harmonized_data, "/VOLUMES/BWH-SLEEPEPI-NSRR-STAGING/20260310-maski-dns/nsrr-prep/0.1.0/dnspn-harmonized-dataset-0.1.0.csv", row.names = FALSE, na = '')
